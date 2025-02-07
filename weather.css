@@ -1,0 +1,52 @@
+body{
+    font-family: "Madimi One","Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aliceblue;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    border-radius: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.weather_btn{
+    background-color: rgb(111, 224, 111);
+    color: white;
+    font-weight: bolder;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
+.icon{
+    font-size: 7.5rem;
+}
+
+.desc{
+    font-style: italic;
+}
+
+.labels{
+    font-weight: bolder;
+}
